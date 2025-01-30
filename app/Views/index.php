@@ -710,11 +710,11 @@
                     <h3>Our Clients</h3>
 
                     <ul class="logo">
-                        <li class="wow fadeIn"><img src="<?= base_url('assets/') ?>assets/images/client/1.png" alt=""></li>
+                        <li class="wow fadeIn"><img src="<?= base_url('assets/') ?>assets/logo/liquid-launge-logo.png" alt=""></li>
 
-                        <li class="wow fadeIn" data-wow-delay="0.2s"><img src="<?= base_url('assets/') ?>assets/images/client/2.png" alt=""></li>
+                        <li class="wow fadeIn" data-wow-delay="0.2s"><img src="<?= base_url('assets/') ?>assets/logo/urban-sip-logo.png" alt=""></li>
 
-                        <li class="wow fadeIn" data-wow-delay="0.3s"><img src="<?= base_url('assets/') ?>assets/images/client/3.png" alt=""></li>
+                        <!-- <li class="wow fadeIn" data-wow-delay="0.3s"><img src="<?= base_url('assets/') ?>assets/images/client/3.png" alt=""></li>
 
                         <li class="wow fadeIn" data-wow-delay="0.4s"><img src="<?= base_url('assets/') ?>assets/images/client/4.png" alt=""></li>
 
@@ -722,7 +722,7 @@
 
                         <li class="wow fadeIn" data-wow-delay="0.6s"><img src="<?= base_url('assets/') ?>assets/images/client/6.png" alt=""></li>
 
-                        <li class="wow fadeIn" data-wow-delay="0.7s"><img src="<?= base_url('assets/') ?>assets/images/client/7.png" alt=""></li>
+                        <li class="wow fadeIn" data-wow-delay="0.7s"><img src="<?= base_url('assets/') ?>assets/images/client/7.png" alt=""></li> -->
                     </ul>
                 </div>
             </div>
