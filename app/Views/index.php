@@ -33,7 +33,7 @@
                             <div class="tp-caption sfr tp-resizeme letter-space-4" 
                                 data-x="left" data-hoffset="0" 
                                 data-y="center" data-voffset="180" 
-                                data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'><a href="#." class="el-btn-regular slider-btn-left btn btn-primary">About Us</a> <a href="#." class="el-btn-regular btn btn-primary color-bg">Career</a>
+                                data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'><a href="/about" class="el-btn-regular slider-btn-left btn btn-primary">About Us</a> <a href="/contact_us" class="el-btn-regular btn btn-primary color-bg">Contact Us</a>
                             </div>
                         </li>
 
@@ -65,7 +65,7 @@
                             <div class="tp-caption lfb tp-resizeme" 
                                 data-x="center" data-hoffset="0" 
                                 data-y="center" data-voffset="180" 
-                                data-frames='[{"delay":1500,"speed":2000,"frame":"0","from":"y:bottom;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'><a href="#." class="el-btn-regular slider-btn-left btn btn-primary">About Us</a> <a href="#." class="el-btn-regular btn btn-primary color-bg">Career</a>
+                                data-frames='[{"delay":2200,"speed":2000,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'><a href="/about" class="el-btn-regular slider-btn-left btn btn-primary">About Us</a> <a href="/contact_us" class="el-btn-regular btn btn-primary color-bg">Contact Us</a>
                             </div>
                         </li>
                     </ul>

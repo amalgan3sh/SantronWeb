@@ -203,7 +203,7 @@
 
                                 <li><a href="contact_us">Contact Us</a></li>
 
-                                <li>
+                                <!-- <li>
                                     <div class="search-view">
                                         <span class="open-bar"><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></span>
 
@@ -215,12 +215,12 @@
                                                     <input type="text" class="form-control" placeholder="search">
                                                 </div>
                                             </form>
-                                        </div> <!-- search-bar -->
-                                    </div> <!-- search-view -->
-                                </li>
+                                        </div> 
+                                    </div>
+                                </li> -->
 
                                 <li>
-                                    <div class="cart cart-wrapper inline-block">
+                                    <!-- <div class="cart cart-wrapper inline-block">
                                         <span class="cart-icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
 
                                         <div class="cart-item">
@@ -250,7 +250,7 @@
 
                                             <button class="btn btn-primary">Proceed to checkout</button>
                                         </div>
-                                    </div> 
+                                    </div>  -->
                                 </li>
                             </ul>
                         </div>
