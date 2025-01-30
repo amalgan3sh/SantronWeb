@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Consulting - Business, Finance and Professional Services HTML 5 Template</title>
+        <title>Santron Trading and Hospitality Services</title>
         <!-- fav icon -->
         <link href="<?= base_url('assets/assets/images/favicon.png') ?>" rel="shortcut icon" type="image/png">
 
@@ -49,8 +49,8 @@
                             <div class="col-md-8">
                                 <div class="header-left-bar">
                                     <ul class="contact-wrapper">
-                                        <li><i class="fa fa-envelope" aria-hidden="true"></i> support@consulting.com</li>
-                                        <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +123 4567 889</li>
+                                        <li><i class="fa fa-envelope" aria-hidden="true"></i> santronqatar@gmail.com</li>
+                                        <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +974 30779555</li>
                                     </ul>
                                 </div> <!-- header-left-bar -->
                             </div>
@@ -58,7 +58,7 @@
                             <div class="col-md-4">
                                 <div class="header-right-bar text-right">
                                     <div class="language">
-                                        <div class="dropbar closed">
+                                        <!-- <div class="dropbar closed">
                                             <i class="fa fa-language" aria-hidden="true"></i><div class="title">lan</div>
 
                                             <div class="dropbar-menu">
@@ -90,7 +90,7 @@
                                                     <li><img src="<?= base_url('assets/') ?>assets/images/map/brazil.png" alt="">Robert</li>
                                                 </ul>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
 
                                     <div class="social-icon pull-right">
@@ -112,59 +112,89 @@
             <nav class="navbar navbar-inverse hidden-sm hidden-xs">
                 <div class="navbar-inner">
                     <div class="container">
-                        <div class="navbar-header">
-                            <a class="navbar-brand" href="index.html"><img src="<?= base_url('assets/') ?>assets/images/logo.png" alt="image"></a>
-                        </div>
+                    <div class="navbar-header">
+    <a class="navbar-brand d-flex align-items-center" href="/">
+        <img src="<?= base_url('assets/') ?>assets/images/logo-santron-2.png" alt="image">
+        <div class="company-label ms-3">
+            <span class="d-block fw-bold">SANTRON TRADING &</span>
+            <span class="d-block fw-bold">HOSPITALITY SERVICES</span>
+        </div>
+    </a>
+</div>
+
+<style>
+.navbar-header {
+    display: flex;
+    height: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.company-label {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.company-label span {
+    display: block;
+}
+</style>
 
                         <div class="collapse navbar-collapse navbar-right">
                             <ul class="nav navbar-nav">
-                                <li class="active dropdown"><a href="#">Home <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                    <ul class="dropdown-menu">
-                                        <li class="active"><a href="index.html">Home One</a></li>
-                                        <li><a href="index-two.html">Home Two</a></li>
+                                <li class="active"><a href="/">Home <i class="" aria-hidden="true"></i></a>
+                                    <!-- <ul class="dropdown-menu"> -->
+                                        <!-- <li class="active"><a href="/">Home One</a></li> -->
+                                        <!-- <li><a href="index-two.html">Home Two</a></li>
                                         <li><a href="index-three.html">Home Three</a></li>
                                         <li><a href="index-four.html">Home Four</a></li>
                                         <li><a href="index-five.html">Home Five</a></li>
-                                        <li><a href="index-six.html">Home Six</a></li>
-                                    </ul>
+                                        <li><a href="index-six.html">Home Six</a></li> -->
+                                    <!-- </ul> -->
                                 </li>
 
                                 <li><a href="about.html">About</a></li>
 
                                 <li class="dropdown"><a href="#">Service <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="service.html">All Services</a></li>
-                                        <li><a href="service-one.html">Service-One</a></li>
-                                        <li><a href="service-two.html">Service-Two</a></li>
-                                        <li><a href="service-three.html">Service-Three</a></li>
-                                        <li><a href="service-four.html">Service-Four</a></li>
+                                        <li><a href="service.html">Night Club</a></li>
+                                        <li><a href="service-one.html">Spa & Relaxation</a></li>
+                                        <li><a href="service-two.html">Lounge Experience</a></li>
+                                        <li><a href="service-three.html">Hotel Supplies</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="dropdown"><a href="#">Project <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <li class="dropdown"><a href="#">Gallery <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="project.html">Project 4 col</a></li>
-                                        <li><a href="project-three.html">Project 3 col</a></li>
-                                        <li><a href="project-two.html">Project 2 col</a></li>
-                                        <li><a href="single-project.html">Single Project</a></li>
+                                        <li><a href="project.html">Night Club Moments</a></li>
+                                        <li><a href="project-three.html">Spa & Wellness</a></li>
+                                        <li><a href="project-two.html">Lounge Experience</a></li>
+                                        <li><a href="single-project.html">Our Global Presence</a></li>
+                                        <li><a href="single-project.html">Behind the Scenes</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="dropdown"><a href="#">Pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <li class="dropdown"><a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="career.html">Career</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="partner.html">Partner</a></li>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="testimonial.html">Testimonial</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="single-blog.html">Single Blog</a></li>
-                                        <li><a href="shop.html">Shop</a></li>
-                                        <li><a href="cart.html">Cart</a></li>
+                                        <li><a href="career.html">Nightlife Tips</a></li>
+                                        <li><a href="faq.html">Health & Wellness</a></li>
+                                        <li><a href="partner.html">Lounge Trends </a></li>
+                                        <li><a href="team.html">Hospitality Insights</a></li>
+                                        <li><a href="testimonial.html">Latest Updates</a></li>
                                     </ul>
                                 </li>
 
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
 
                                 <li>
                                     <div class="search-view">

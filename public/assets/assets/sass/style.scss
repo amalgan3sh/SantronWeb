@@ -5865,7 +5865,7 @@ textarea, select {
                     top: 12px;
                     left: 0;
                     font-size: 22px;
-                    color: #848484;
+                    color: #000000;
 
                     @media only screen and (max-width: 479px) {
                         top: 14px;
@@ -5877,10 +5877,10 @@ textarea, select {
                     font-size: 16px;
                     font-weight: 300;
                     line-height: 38px;
-                    color: #848484;
+                    color: #000000;
                     border: 0;
                     border-radius: 0;
-                    border-bottom: 1px solid #848484;
+                    border-bottom: 1px solid #000000;
                     background-color: transparent;
                     box-shadow: none;
                     padding: 22px 35px;
@@ -7598,7 +7598,7 @@ textarea, select {
             @media only screen and (max-width: 991px){margin-right: 0;}
 
             p {
-                color: #848484;
+                color: #000000;
 
                 &:last-child {margin: 0;}
             }
@@ -7606,7 +7606,7 @@ textarea, select {
             .content {
                 margin-bottom: 22px;
                 
-                li .single-content {color: #848484;}    
+                li .single-content {color: #000000;}    
             } 
         }
     }
