@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Santron Trading and Hospitality Services</title>
         <!-- fav icon -->
-        <link href="<?= base_url('assets/assets/images/favicon.png') ?>" rel="shortcut icon" type="image/png">
+        <link href="<?= base_url('assets/') ?>assets/logo/santron-transparent.png" rel="shortcut icon" type="image/png">
 
         <!-- Bootstrap -->
         <link href="<?= base_url('assets/') ?>assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
