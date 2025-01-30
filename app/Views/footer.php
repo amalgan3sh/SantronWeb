@@ -15,13 +15,13 @@
 
                             <li><i class="fa fa-phone" aria-hidden="true"></i> 
                                 <div class="content">
-                                    +974-1234-5678
+                                +974 30779555
                                 </div>
                             </li>
 
                             <li><i class="fa fa-clock-o" aria-hidden="true"></i> 
                                 <div class="content">
-                                    Working Hours: <br> Mon-Sun (10 am - 12 am)
+                                    Working Hours: <br> Sun-Thu (9 am - 6 am)
                                 </div>
                             </li>
                         </ul>
@@ -49,19 +49,19 @@
                         <h3>Quick Links</h3>
 
                         <ul class="wrapper-option clearfix">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Night Club</a></li>
-                            <li><a href="#">Spa & Relaxation</a></li>
-                            <li><a href="#">Lounges</a></li>
+                            <li><a href="<?= base_url('/') ?>">Home</a></li>
+                            <li><a href="<?= base_url('/about') ?>">About Us</a></li>
+                            <li><a href="<?= base_url('/services') ?>">Services</a></li>
+                            <li><a href="<?= base_url('/night_club') ?>">Night Club</a></li>
+                            <li><a href="<?= base_url('/spa_and_relaxation') ?>">Spa & Relaxation</a></li>
+                            <li><a href="<?= base_url('/lounges') ?>">Lounges</a></li>
                         </ul> <!-- wrapper-option -->
 
                         <ul class="wrapper-option">
-                            <li><a href="#">Hotel Supplies</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Testimonials</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<?= base_url('/hotel_supplies') ?>">Hotel Supplies</a></li>
+                            <li><a href="<?= base_url('/blog') ?>">Blog</a></li>
+                            <li><a href="<?= base_url('/testimonials') ?>">Testimonials</a></li>
+                            <li><a href="<?= base_url('/contact_us') ?>">Contact Us</a></li>
                         </ul> <!-- wrapper-option -->
                     </div> <!-- footer-wrapper -->
                 </div>
@@ -71,7 +71,7 @@
 
     <div class="copy-right text-center">
         <div class="container">
-            <p>2025 &copy; All Rights Reserved by <a href="#">Santron Trading and Hospitality Services</a></p>
+            <p>2025 &copy; All Rights Reserved by <a href="<?= base_url('/') ?>">Santron Trading and Hospitality Services</a></p>
         </div>
     </div> <!-- copy-right -->
 </footer> <!-- footer-section -->
@@ -135,9 +135,11 @@
 <script src="<?= base_url('assets/') ?>assets/js/jquery-ui.js"></script>
 <script src="<?= base_url('assets/') ?>assets/js/language.js"></script>
 
+
 <!-- Revolution Slider -->
 <script src="<?= base_url('assets/') ?>assets/revolution/jquery.themepunch.revolution.min.js"></script>
 <script src="<?= base_url('assets/') ?>assets/revolution/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 
 <!-- Revolution Extensions -->
 <script type="text/javascript" src="<?= base_url('assets/') ?>assets/revolution/extensions/revolution.extension.actions.min.js"></script>

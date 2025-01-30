@@ -684,17 +684,17 @@
                     <div id="accordion" class="accordion-content">
                         <h3>What services does Santron Trading and Hospitality Services offer?</h3>
                         <div>
-                            <p>Santron offers a wide range of services, including world-class nightclub experiences, luxurious spa treatments, sophisticated lounges, and premium hotel supplies. We are dedicated to providing exceptional entertainment, relaxation, and hospitality solutions.</p>
+                            <p>Santron offers a wide range of services, including world-class <br>nightclub experiences, luxurious spa treatments, sophisticated <br> lounges, and premium hotel supplies. We are dedicated to providing exceptional entertainment, relaxation, and hospitality solutions.</p>
                         </div>
 
                         <h3>Where is Santron located?</h3>
                         <div>
-                            <p>Santron has a strong presence in Qatar, with branches in Dubai, India, and Singapore. Our global reach allows us to deliver top-tier hospitality and entertainment experiences across multiple regions.</p>
+                            <p>Santron has a strong presence in Qatar, with branches in Dubai, India, and Singapore. Our global reach allows us to deliver top-tier<br> hospitality and entertainment experiences across multiple regions.</p>
                         </div>
 
                         <h3>How can I book a VIP experience at Santron's nightclub?</h3>
                         <div>
-                            <p>To book a VIP experience at our nightclub, you can contact us directly through our website or visit our venue. We offer exclusive packages, bottle service, and reserved seating to ensure a memorable night out.</p>
+                            <p>To book a VIP experience at our nightclub, you can contact us directly through our website or visit our venue. We offer exclusive packages, <br>bottle service, and reserved seating to ensure a memorable <br>night out.</p>
                         </div>
 
                         <h3>What makes Santron's spa treatments unique?</h3>
@@ -705,27 +705,7 @@
                 </div> <!-- faq-content -->
             </div>
 
-            <div class="col-md-6">
-                <div class="client-section">
-                    <h3>Our Clients</h3>
-
-                    <ul class="logo">
-                        <li class="wow fadeIn"><img src="<?= base_url('assets/') ?>assets/logo/liquid-launge-logo.png" alt=""></li>
-
-                        <li class="wow fadeIn" data-wow-delay="0.2s"><img src="<?= base_url('assets/') ?>assets/logo/urban-sip-logo.png" alt=""></li>
-
-                        <!-- <li class="wow fadeIn" data-wow-delay="0.3s"><img src="<?= base_url('assets/') ?>assets/images/client/3.png" alt=""></li>
-
-                        <li class="wow fadeIn" data-wow-delay="0.4s"><img src="<?= base_url('assets/') ?>assets/images/client/4.png" alt=""></li>
-
-                        <li class="wow fadeIn" data-wow-delay="0.5s"><img src="<?= base_url('assets/') ?>assets/images/client/5.png" alt=""></li>
-
-                        <li class="wow fadeIn" data-wow-delay="0.6s"><img src="<?= base_url('assets/') ?>assets/images/client/6.png" alt=""></li>
-
-                        <li class="wow fadeIn" data-wow-delay="0.7s"><img src="<?= base_url('assets/') ?>assets/images/client/7.png" alt=""></li> -->
-                    </ul>
-                </div>
-            </div>
+            
         </div>
     </div>
 </section> <!-- multi-section -->

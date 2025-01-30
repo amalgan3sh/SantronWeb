@@ -54,6 +54,14 @@
                                     </ul>
                                 </div> <!-- header-left-bar -->
                             </div>
+                            <style>
+                                /* Hide the contact information on screens smaller than 768px (typical mobile devices) */
+                                @media (max-width: 767.98px) {
+                                    .header-left-bar {
+                                        display: none;
+                                    }
+                                }
+                            </style>
 
                             <div class="col-md-4">
                                 <div class="header-right-bar text-right">
@@ -163,38 +171,37 @@
                                     <!-- </ul> -->
                                 </li>
 
-                                <li><a href="about.html">About</a></li>
+                                <li><a href="about">About</a></li>
 
                                 <li class="dropdown"><a href="#">Service <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="service.html">Night Club</a></li>
-                                        <li><a href="service-one.html">Spa & Relaxation</a></li>
-                                        <li><a href="service-two.html">Lounge Experience</a></li>
-                                        <li><a href="service-three.html">Hotel Supplies</a></li>
+                                        <li><a href="night_club">Night Club</a></li>
+                                        <li><a href="spa_and_relaxation">Spa & Relaxation</a></li>
+                                        <li><a href="lounge_experience">Lounge Experience</a></li>
+                                        <li><a href="hotel_supplies">Hotel Supplies</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="dropdown"><a href="#">Gallery <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <!-- <li class="dropdown"><a href="#">Gallery <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="project.html">Night Club Moments</a></li>
-                                        <li><a href="project-three.html">Spa & Wellness</a></li>
-                                        <li><a href="project-two.html">Lounge Experience</a></li>
-                                        <li><a href="single-project.html">Our Global Presence</a></li>
-                                        <li><a href="single-project.html">Behind the Scenes</a></li>
+                                        <li><a href="night_club_gallery">Night Club Moments</a></li>
+                                        <li><a href="spa_and_wellness_gallery">Spa & Wellness</a></li>
+                                        <li><a href="lounge_experience_gallery">Lounge Experience</a></li>
+                                        <li><a href="our_global_presence_gallery">Our Global Presence</a></li>
+                                        <li><a href="behind_the_scene_gallery">Behind the Scenes</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
 
-                                <li class="dropdown"><a href="#">Blog <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <li class="dropdown"><a href="#">Messages & Blogs <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="career.html">Nightlife Tips</a></li>
-                                        <li><a href="faq.html">Health & Wellness</a></li>
-                                        <li><a href="partner.html">Lounge Trends </a></li>
-                                        <li><a href="team.html">Hospitality Insights</a></li>
-                                        <li><a href="testimonial.html">Latest Updates</a></li>
+                                        <li><a href="founders_message">Founder's Message</a></li>
+                                        <li><a href="chairmans_message">Chairman's Message</a></li>
+                                        <li><a href="ceos_message">CEO's Message </a></li>
+                                        <li><a href="blog">Blogs </a></li>
                                     </ul>
                                 </li>
 
-                                <li><a href="contact.html">Contact Us</a></li>
+                                <li><a href="contact_us">Contact Us</a></li>
 
                                 <li>
                                     <div class="search-view">
