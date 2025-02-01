@@ -22,3 +22,5 @@ $routes->get('/chairmans_message', 'Home::chairmans_message');
 $routes->get('/ceos_message', 'Home::ceos_message');
 $routes->get('/blog', 'Home::blog');
 $routes->get('/contact_us', 'Home::contact_us');
+$routes->get('/admin_home', 'AdminController::index');
+$routes->get('/test_db', 'AdminController::test_db');
