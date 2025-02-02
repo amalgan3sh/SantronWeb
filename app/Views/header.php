@@ -25,6 +25,7 @@
         <link href="<?= base_url('assets/') ?>assets/css/offcanvas-menu.css" rel="stylesheet" type="text/css">
         <!-- style-css -->
         <link href="<?= base_url('assets/') ?>assets/css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 
     </head>
     <body class="homePageOne">
