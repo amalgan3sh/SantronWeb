@@ -352,10 +352,10 @@
             </div>
 
             <div class="col-md-5">
-    <div class="quote-section">
-        <h3 style="color: black;">Get in Touch</h3>
+            <div class="quote-section">
+                <h3 style="color: black;">Get in Touch</h3>
 
-        <form class="contact-form">
+                <form class="contact-form" action="<?= base_url('submit-inquiry') ?>" method="post">
             <div class="form-group">
                 <i class="fa fa-user" aria-hidden="true" style="color: black;"></i>
                 <input id="name" name="name" type="text" class="form-control" required="" placeholder="Name" style="color: black;">
@@ -368,12 +368,12 @@
 
             <div class="form-group">
                 <i class="fa fa-phone" aria-hidden="true" style="color: black;"></i>
-                <input id="last-name" name="name" type="text" class="form-control" required="" placeholder="Phone" style="color: black;">
+                <input id="phone" name="phone" type="text" class="form-control" required="" placeholder="Phone" style="color: black;">
             </div>
 
             <div class="form-group">
                 <i class="fa fa-globe" aria-hidden="true" style="color: black;"></i>
-                <input id="last-nam" name="name" type="text" class="form-control" required="" placeholder="Website" style="color: black;">
+                <input id="website" name="website" type="text" class="form-control" placeholder="Website" style="color: black;">
             </div>
 
             <div class="form-group">
