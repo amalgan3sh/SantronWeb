@@ -656,9 +656,11 @@
                             <form class="signupForm">
                                 <div class="form-wrapper">
                                     <input class="searchBar" required="" placeholder="email address...">
+                                    <input class="searchBar" type="tel" name="mobile" required placeholder="Mobile number...">
 
                                     <button type="submit" class="subscribeBtn btn-primary">Submit</button>
                                 </div>
+                                
                             </form>
                         </div>
                     </div>

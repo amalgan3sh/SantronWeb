@@ -49,8 +49,8 @@
                             <div class="col-md-8">
                                 <div class="header-left-bar">
                                     <ul class="contact-wrapper">
-                                        <li><i class="fa fa-envelope" aria-hidden="true"></i> santronqatar@gmail.com</li>
-                                        <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +974 30779555</li>
+                                        <!-- <li><i class="fa fa-envelope" aria-hidden="true"></i> santronqatar@gmail.com</li> -->
+                                        <!-- <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +974 30779555</li> -->
                                     </ul>
                                 </div> <!-- header-left-bar -->
                             </div>
@@ -123,7 +123,7 @@
                     <div class="navbar-header">
     <a class="navbar-brand d-flex align-items-center" href="/">
         <img src="<?= base_url('assets/') ?>assets/images/logo-santron-2.png" alt="image">
-        <div class="company-label ms-3">
+        <div class="company-label ms-3" style="font-size:1.7rem;">
             <span class="d-block fw-bold">SANTRON TRADING &</span>
             <span class="d-block fw-bold">HOSPITALITY SERVICES</span>
         </div>

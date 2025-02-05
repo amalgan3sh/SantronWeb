@@ -21,7 +21,7 @@ body {
   line-height: 25px;
   font-weight: 400;
   color: #6a6a6a;
-  background-color: #ffffff;
+  background: linear-gradient(to right, #ddeaf0, #9badb6);
   overflow-x: hidden; }
   body.dark-layout {
     color: #696969;

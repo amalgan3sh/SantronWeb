@@ -13,6 +13,12 @@
                                 </div>
                             </li>
 
+                            <li><i class="fa fa-envelope" aria-hidden="true"></i>
+                                <div class="content">
+                                santronqatar@gmail.com
+                                </div>
+                            </li>
+
                             <li><i class="fa fa-phone" aria-hidden="true"></i> 
                                 <div class="content">
                                 +974 30779555
