@@ -24,7 +24,6 @@ $routes->get('/blog', 'Home::blog');
 $routes->get('/contact_us', 'Home::contact_us');
 $routes->get('/admin_home', 'AdminController::index');
 $routes->get('/test_db', 'AdminController::test_db');
-
-//Admin
-$routes->get('/sign_up','AdminController::sign_up');
-$routes->post('/register_user', 'AdminController::register_user');
+$routes->post('submit-contact', 'ContactController::submit');
+$routes->post('submit-inquiry', 'ContactController::submit_inquiry');
+$routes->get('submit', 'ContactController::submit');

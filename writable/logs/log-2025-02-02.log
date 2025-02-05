@@ -1,0 +1,15 @@
+INFO - 2025-02-02 08:29:34 --> submit() method reached.
+DEBUG - 2025-02-02 08:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-02 08:30:01 --> submit() method reached.
+DEBUG - 2025-02-02 08:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-02 08:31:25 --> submit() method reached.
+INFO - 2025-02-02 08:31:25 --> Form data received: {"name":"Reagan Mckee","email":"rohesy@mailinator.com","location":"Ad veritatis consequ","message":"Consequat Delectus"}
+INFO - 2025-02-02 08:31:26 --> Data inserted successfully into the database.
+DEBUG - 2025-02-02 08:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 08:39:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-02-02 08:39:21 --> submit() method reached.
+INFO - 2025-02-02 08:39:21 --> Form data received: {"name":"Kay Rocha","email":"botexy@mailinator.com","location":"Provident voluptate","message":"Rerum quae alias ali"}
+INFO - 2025-02-02 08:39:21 --> Data inserted successfully into the database.
+DEBUG - 2025-02-02 08:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 08:39:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-02-02 08:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
