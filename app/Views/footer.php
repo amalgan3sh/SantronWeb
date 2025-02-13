@@ -83,8 +83,31 @@
 </footer> <!-- footer-section -->
 
 <!-- Off-Canvas View Only -->
-<span class="menu-toggle navbar visible-xs visible-sm"><i class="fa fa-bars" aria-hidden="true"></i></span>
+<span class="menu-toggle navbar visible-xs visible-sm">
+    <img src="<?php echo base_url('../assets/assets/images/santron-main.png') ?>" alt="Santron Logo" class="menu-logo">
+    <i class="fa fa-bars" aria-hidden="true"></i>
+</span>
+<style>
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align logo left and icon right */
+    width: 100%; /* Full width */
+    padding: 0 15px; /* Optional: Add padding for spacing */
+}
 
+.menu-logo {
+    height: 30px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+.menu-toggle i {
+    margin-left: 90%; /* Push the menu icon to the right */
+    font-size: 20px; /* Adjust icon size if needed */
+    position: relative;
+    top: -25px; /* Move the icon a little bit to the top */
+}
+</style>
 <div id="offcanvas-menu" class="visible-xs visible-sm">
     <span class="close-menu"><i class="fa fa-times" aria-hidden="true"></i></span>
 
