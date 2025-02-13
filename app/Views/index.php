@@ -4,6 +4,52 @@
 
             <div class="rev_slider_wrapper">
                 <div id="rev_slider_1" class="rev_slider" style="display:none">
+                <ul>
+                        <li data-transition="random" data-title="Sample Title" data-param1="Additional Text" data-thumb="assets/images/slider/slider-1.jpg">
+                            <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
+                            <img src="<?= base_url('assets/') ?>assets/banner/banner-1.jpg" alt="Sky" class="rev-slidebg">
+
+                            <!-- TITLE LAYER -->
+                            <div class="tp-caption tp-resizeme"
+                                data-x="center" data-hoffset="0"
+                                data-y="center" data-voffset="-80"
+                                data-fontsize="50"
+                                data-lineheight="60"
+                                data-fontweight="bold"
+                                data-fontfamily="Arial, sans-serif"
+                                data-color="#ffffff"
+                                data-width="auto"
+                                data-height="auto"
+                                data-whitespace="nowrap"
+                                data-transform_idle="o:1;"
+                                data-transform_in="x:[-300%];opacity:0;s:500;"
+                                data-transform_out="opacity:0;s:300;"
+                                data-start="500">
+                                Why We Are the Right Choice
+
+                            </div>
+
+                            <!-- DESCRIPTION LAYER -->
+                            <div class="tp-caption tp-resizeme"
+                                data-x="center" data-hoffset="0"
+                                data-y="center" data-voffset="50"
+                                data-fontsize="20"
+                                data-lineheight="30"
+                                data-fontweight="bold"
+                                data-fontfamily="Arial, sans-serif"
+                                data-color="#ffffff"
+                                data-width="600"
+                                data-height="auto"
+                                data-whitespace="normal"
+                                data-transform_idle="o:1;"
+                                data-transform_in="y:[100%];opacity:0;s:500;"
+                                data-transform_out="opacity:0;s:300;"
+                                data-start="1000">
+                                At Santron Trading and Hospitality Services, we redefine entertainment and luxury with world-class nightlife, spa, lounge, and hospitality solutions.
+
+</div>
+                        </li>
+                    </ul>
                     <ul>
                         <li data-transition="random" data-title="Slide Title" data-param1="Additional Text" data-thumb="assets/images/slider/slider-1.jpg">
                             <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
@@ -72,8 +118,6 @@
                 </div>
             </div>
         </section>
-
-
 
         <section class="right-choice-section section-padding">
     <div class="container text-center">
